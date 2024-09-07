@@ -1,39 +1,37 @@
-# Tab-Synergy
-# 🚀 Crowdfunding Platform on Arbitrum Layer 2
+## Getting Started
 
-Welcome to our decentralized **Crowdfunding Platform**, built on top of **Arbitrum Layer 2** to provide fast, scalable, and low-cost transactions for funding projects. This platform enables users to easily create and support campaigns, with all the security and transparency of the Ethereum blockchain, while benefiting from Arbitrum's scaling solution.
+Create a project using this example:
 
-## 🎯 Features
+```bash
+npx thirdweb create --template vite-javascript-starter
+```
 
-- **Low Transaction Fees**: Thanks to Arbitrum's Layer 2 scaling, users can fund campaigns with significantly lower gas fees than traditional Ethereum Layer 1 transactions.
-- **Fast Transactions**: Near-instant transaction finality without compromising security, thanks to Arbitrum’s Optimistic Rollups.
-- **Decentralized & Transparent**: All crowdfunding activities, from campaign creation to funding, are secured on Ethereum through Arbitrum’s Layer 2 solution.
-- **Custom Campaigns**: Users can create their own fundraising campaigns with custom goals, deadlines, and incentives.
-- **Smart Contracts**: Campaigns are powered by secure and audited smart contracts, ensuring trust and automation in funding and disbursement processes.
+You can start editing the page by modifying `src/main.jsx`. The page auto-updates as you edit the file.
 
-## 🔧 Technology Stack
+On `src/index.jsx`, you'll find our `ThirdwebProvider` wrapping your app,
+this is necessary for our [hooks](https://portal.thirdweb.com/react) and
+[UI Components](https://portal.thirdweb.com/ui-components) to work.
 
-- **Smart Contracts**: Solidity (deployed on Ethereum, using Arbitrum Layer 2)
-- **Frontend**: React.js
-- **Backend**: Node.js (for off-chain data management)
-- **Blockchain**: Ethereum (via Arbitrum Layer 2)
-- **Wallet Integration**: MetaMask, WalletConnect
-- **Development Environment**: Hardhat
+### Deploy to IPFS
 
-## 🚀 Getting Started
+Deploy a copy of your application to IPFS using the following command:
 
-### Prerequisites
+```bash
+yarn deploy
+```
 
-To run this project locally, you will need:
+## Learn More
 
-- **Node.js** (version 14.x or above)
-- **Yarn** or **npm** (for package management)
-- **MetaMask** (for connecting to the Ethereum/Arbitrum network)
+To learn more about thirdweb, Vite and React, take a look at the following resources:
 
-### Installation
+- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
+- [thirdweb JavaScript Documentation](https://docs.thirdweb.com/react) - learn about our JavaScript/TypeScript SDK.
+- [thirdweb Portal](https://docs.thirdweb.com/react) - check our guides and development resources.
+- [Vite Documentation](https://vitejs.dev/guide/) - learn about Vite features.
+- [React documentation](https://reactjs.org/) - learn React.
 
-1. Clone the repository:
+You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
 
-   ```bash
-   git clone https://github.com/your-username/crowdfunding-platform-arbitrum.git
-   cd crowdfunding-platform-arbitrum
+## Join our Discord!
+
+For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
